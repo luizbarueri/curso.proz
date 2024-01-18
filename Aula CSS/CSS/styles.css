@@ -1,0 +1,94 @@
+body {
+    background-color: #777;
+}
+
+/* p {
+    font-family: sans-serif;
+    color: red;
+    font-size: 50px;
+} */
+
+section div p {
+    font-family: sans-serif;
+    color: blue;
+    font-size: 50px;
+}
+
+p, span, a {
+    font-family: sans-serif;
+    color: blue;
+    font-size: 15px;
+}
+
+.azul {
+    color: rgb(55, 0, 252);
+    background-color: orange;
+  }
+  
+  .verde-bg {
+    background: rgb(43, 235, 4);
+    text-align: center;
+    color: red;
+  }
+  
+  .elegante {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+  }
+  
+  span#exemploId {
+    background-color: red;
+  }
+  
+  a {
+    color: blue;
+  }
+  /* Links internos, começando com "#" */
+  a[href^="#"] {
+    background-color: gold;
+  }
+  /* Links com "example" em qualquer lugar da URL */
+  a[href*="example"] {
+    background-color: silver;
+  }
+  /* Links com "insensitive" em qualquer lugar da URL,
+     independentemente da capitalização */
+  a[href*="insensitive" i] {
+    color: cyan;
+  }
+  /* Links com final ".org" */
+  a[href$=".org"] {
+    color: red;
+  }
+  
+  div#div-main {
+    background-color: #eee;
+    width: 100%;
+  }
+
+  div#caixas-horizontal {
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* gap: 1rem; */
+    align-items: center;
+    width: 100%;
+  }
+  div#caixas-vertical {
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    height:  100%;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    /* padding: 0 2, 4rem; */
+  }
