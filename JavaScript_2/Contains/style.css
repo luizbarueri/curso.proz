@@ -1,0 +1,23 @@
+body {
+    background-color: #573489;
+    color: aliceblue;
+}
+
+div {
+    display: block;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+div button {
+    background-color: #EB7E12;
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+}
+div h1 {
+    margin-left: 50px;
+}
